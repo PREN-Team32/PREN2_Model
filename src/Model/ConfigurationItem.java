@@ -8,6 +8,7 @@ package Model;
 
 /**
  *
+ * Wrapperclass used to store and transmit the configuration details for the detector.
  * @author Nikk
  */
 public class ConfigurationItem {

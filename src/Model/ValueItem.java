@@ -9,6 +9,7 @@ import java.io.File;
 
 /**
  *
+ * Wrapperclass used to store and transmit the results of the object detector
  * @author Niklaus
  */
 public class ValueItem {
