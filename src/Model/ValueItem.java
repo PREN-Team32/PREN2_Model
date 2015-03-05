@@ -5,17 +5,18 @@
  */
 package Model;
 
+import java.io.File;
+
 /**
  *
  * @author Niklaus
  */
-public class PREN2_Model {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class ValueItem {
+    public File originalImage;
+    public File editedImage;
     
+    public int mainArea;
+    public int totalTimeUsed;
+    public boolean foundShape;
+    public int calculatedAngle;
 }
