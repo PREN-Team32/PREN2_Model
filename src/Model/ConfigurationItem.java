@@ -19,5 +19,8 @@ public class ConfigurationItem {
     public int heightToObserve;
     
     //Amount of visited adjacent Pixels to determine a shape.
-    public int visitedPixels;   
-}
+    public int visitedPixels;
+    
+    //Boolean flag to indicate start
+    public boolean startSignal;
+}  
