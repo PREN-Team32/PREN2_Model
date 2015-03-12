@@ -6,13 +6,14 @@
 package ch.hslu.pren.t32.model;
 
 import java.io.File;
+import java.io.Serializable;
 
 /**
  *
  * Wrapperclass used to store and transmit the results of the object detector
  * @author Niklaus
  */
-public class ValueItem {
+public class ValueItem implements Serializable{
     public File originalImage;
     public File editedImage;
     

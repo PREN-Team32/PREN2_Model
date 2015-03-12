@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package ch.hslu.pren.t32.model;
+import java.io.Serializable;
 
 
 /**
@@ -11,7 +12,7 @@ package ch.hslu.pren.t32.model;
  * Wrapperclass used to store and transmit the configuration details for the detector.
  * @author Nikk
  */
-public class ConfigurationItem {
+public class ConfigurationItem implements Serializable {
     public int luminanceThreshold;
     
     //Width & Height which will be analysed (Rest of Image will be cut off)
