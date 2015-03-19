@@ -20,7 +20,7 @@ public class ValueItem implements Serializable{
     public int mainArea;
     public int totalTimeUsed;
     public boolean foundShape;
-    public int calculatedAngle;
+    public double calculatedAngle;
     
     public ValueItem() {
         this.mainArea = 0;
