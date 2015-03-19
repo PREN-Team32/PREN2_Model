@@ -21,4 +21,11 @@ public class ValueItem implements Serializable{
     public int totalTimeUsed;
     public boolean foundShape;
     public int calculatedAngle;
+    
+    public ValueItem() {
+        this.mainArea = 0;
+        this.totalTimeUsed = 0;
+        this.foundShape = false;
+        this.calculatedAngle = 0;
+    }
 }

@@ -13,7 +13,7 @@ import java.io.Serializable;
  * @author Nikk
  */
 public class ConfigurationItem implements Serializable {
-    public int luminanceThreshold;
+    public float luminanceThreshold;
     
     //Width & Height which will be analysed (Rest of Image will be cut off)
     public int withToObserve;
@@ -24,4 +24,12 @@ public class ConfigurationItem implements Serializable {
     
     //Boolean flag to indicate start
     public boolean startSignal;
+    
+    public ConfigurationItem() {
+        this.luminanceThreshold = 0.3f;
+        this.withToObserve = 488;
+        this.heightToObserve = 500;
+        this.visitedPixels = 3;
+        this.startSignal = false;
+    }
 }  
