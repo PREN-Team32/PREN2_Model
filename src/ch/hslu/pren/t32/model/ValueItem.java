@@ -14,6 +14,9 @@ import java.io.Serializable;
  * @author Niklaus
  */
 public class ValueItem implements Serializable{
+    private static ValueItem singeltonInstance;
+    
+    //Values:
     public File originalImage;
     public File editedImage;
     
@@ -28,5 +31,12 @@ public class ValueItem implements Serializable{
         this.totalTimeUsed = 0;
         this.foundShape = false;
         this.calculatedAngle = 0;
+    }
+    
+    public static final ValueItem getInstance() {
+        if(singeltonInstance == null) {
+            singeltonInstance = new ValueItem();
+        }
+        return singeltonInstance;
     }
 }
