@@ -25,6 +25,11 @@ public class ConfigurationItem implements Serializable {
     //Amount of visited adjacent Pixels to determine a shape.
     public int visitedPixels;
     
+    //Factor used for angle calculation
+    public double pixelToCm;
+    public int fullImageWidthInPx;
+    public int fullBucketWidthInPx;
+    
     //Boolean flag to indicate start
     public boolean startSignal;
     
